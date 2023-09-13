@@ -12,8 +12,7 @@ def load_json_graph(filename):
 def add_edges(graph, node, parent=None):
     if parent is not None:
         graph.add_edge(parent, node['id'])
-    graph.nodes[node['id']]['label'] = node['label']
-    graph.nodes[node['id']]['value'] = node.get('value', 0)
+    graph.add_node(node['id'], label=node['label'], value=node.get('value', 0))
     for child in node.get('children', []):
         add_edges(graph, child, node['id'])
 
@@ -33,9 +32,14 @@ def visualize_attack_tree(json_graph):
     add_edges(graph, root_node)
 
     pos = graphviz_layout(graph, prog="dot")
-
-    labels = {node: graph.nodes[node]['label'] for node in graph.nodes()}
+    labels = {
+        node: f"{graph.nodes[node]['label']} ({graph.nodes[node].get('value', '')})" for node in graph.nodes()}
     index_to_node = {i: node for i, node in enumerate(graph.nodes)}
+
+    def update_labels():
+        nonlocal labels
+        labels = {
+            node: f"{graph.nodes[node]['label']} ({graph.nodes[node].get('value', '')})" for node in graph.nodes()}
 
     def on_pick(event):
         node_idx = index_to_node[event.ind[0]]
@@ -54,13 +58,21 @@ def visualize_attack_tree(json_graph):
         node_attrs['value'] = value
         print(f"Set value of node {node_attrs['label']} to {value}")
 
+        update_labels()
+        plt.clf()
+        nx.draw(graph, pos, with_labels=False,
+                node_size=1000, node_color='skyblue')
+        nx.draw_networkx_labels(graph, pos, labels=labels)
+        for i, (node, (x, y)) in enumerate(pos.items()):
+            plt.scatter(x, y, s=1000, c='skyblue', picker=True)
+        plt.draw()
+
     fig = plt.figure()
     fig.canvas.mpl_connect('pick_event', on_pick)
 
     nx.draw(graph, pos, with_labels=False,
             node_size=1000, node_color='skyblue')
     nx.draw_networkx_labels(graph, pos, labels=labels)
-
     for i, (node, (x, y)) in enumerate(pos.items()):
         plt.scatter(x, y, s=1000, c='skyblue', picker=True)
 
