@@ -43,6 +43,8 @@ def visualize_attack_tree(json_graph):
 
     def on_pick(event):
         node_idx = index_to_node[event.ind[0]]
+        print(event.artist)
+
         node_attrs = graph.nodes[node_idx]
 
         parent_sum = find_parent_values(graph, node_idx)
