@@ -2,9 +2,6 @@ import json
 import matplotlib.pyplot as plt
 import networkx as nx
 from networkx.drawing.nx_agraph import graphviz_layout
-from matplotlib.artist import Artist
-
-selectedPoint = None
 
 
 def load_json_graph(filename):
