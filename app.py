@@ -2,6 +2,9 @@ import json
 import matplotlib.pyplot as plt
 import networkx as nx
 from networkx.drawing.nx_agraph import graphviz_layout
+from matplotlib.artist import Artist
+
+selectedPoint = None
 
 
 def load_json_graph(filename):
@@ -20,6 +23,8 @@ def add_edges(graph, node, parent=None):
 def find_parent_values(graph, node):
     parents = nx.ancestors(graph, node)
     values = [graph.nodes[parent].get('value', 0) for parent in parents]
+    print(values)
+    print(parents)
     return sum(values)
 
 
@@ -42,8 +47,13 @@ def visualize_attack_tree(json_graph):
             node: f"{graph.nodes[node]['label']} ({graph.nodes[node].get('value', '')})" for node in graph.nodes()}
 
     def on_pick(event):
+        print('node info')
+        line = event.artist
+        xdata, ydata = line.get_data()
+        ind = event.ind
+        print(f'on pick line: {xdata[ind]:.3f}, {ydata[ind]:.3f}')
+
         node_idx = index_to_node[event.ind[0]]
-        print(event.artist)
 
         node_attrs = graph.nodes[node_idx]
 
