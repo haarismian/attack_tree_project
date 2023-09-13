@@ -1,0 +1,36 @@
+{
+    "id": "Root",
+    "label": "Root Node",
+    "value": 0,
+    "children": [
+        {
+            "id": "Node1",
+            "label": "Node 1",
+            "value": 0,
+            "children": [
+                {
+                    "id": "Node1.1",
+                    "label": "Node 1.1",
+                    "value": 0
+                },
+                {
+                    "id": "Node1.2",
+                    "label": "Node 1.2",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "id": "Node2",
+            "label": "Node 2",
+            "value": 0,
+            "children": [
+                {
+                    "id": "Node2.1",
+                    "label": "Node 2.1",
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}
