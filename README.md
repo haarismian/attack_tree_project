@@ -96,3 +96,49 @@ Due to Matplotlib's ostensibly inadequate built-in support for discerning the ex
 
 1.  In subsequent versions of the application, it would be prudent to integrate functionalities facilitating easier data import and export, thus enhancing interoperability with other tools and systems. In parallel, the user interface could be refined to offer more intuitive navigation and a richer visual representation of the attack trees, possibly through the introduction of custom node icons and color-coded risk levels.
 2.  Greater interactivity which includes the ability to click and drag to move nodes around
+
+### Reference List
+
+1. **Broadcom Software Group (2021)**  
+   [_A FORRESTER TOTAL ECONOMIC IMPACT™ STUDY COMMISSIONED BY BROADCOM SOFTWARE GROUP_](https://docs.broadcom.com/doc/forrester-total-economic-impact-of-symantec-endpoint-security-complete)  
+   The Total Economic Impact™ Of Symantec Endpoint Security Complete: Cost Savings And Business Benefits Enabled By Symantec, A Division Of Broadcom.  
+   Accessed on: 15th September 2023
+
+2. **Best Practice (2022)**  
+   [_What Does ISO Certification Cost_](https://bestpractice.biz/what-does-iso-certification-cost/#:~:text=You%20can%20expect%20to%20pay)
+
+3. **Cybint (2020)**  
+   [_Top 10 Terrifying Trends in Cybercrime_](https://www.cybintsolutions.com/terrifying-trends-in-cybercrime/)
+
+4. **Kaspersky Lab (2015)**  
+   [_DAMAGE CONTROL: THE COST OF SECURITY BREACHES IT SECURITY RISKS SPECIAL REPORT SERIES_](https://media.kaspersky.com/pdf/it-risks-survey-report-cost-of-security-breaches.pdf)
+
+5. **IBM (2023)**  
+   [_Cost of a Data Breach 2023_](https://www.ibm.com/reports/data-breach)
+
+6. **Cisco (n.d.)**  
+   [_NETWORK AVAILABILITY: HOW MUCH DO YOU NEED? HOW DO YOU GET IT?_](https://www.cisco.com/web/IT/unified_channels/area_partner/cisco_powered_network/net_availability.pdf)
+
+7. **Intel Network Builders (n.d.)**  
+   [_Total Cost of Ownership Analysis for a Wireless Access Gateway_](https://networkbuilders.intel.com/solutionslibrary/total-cost-of-ownership-analysis-for-a-wireless-access-gateway)  
+   Accessed on: 15th September 2023
+
+8. **Positive Technologies (2022)**  
+   [_Cybersecurity threatscape: Q3 2022_](https://www.ptsecurity.com/ww-en/analytics/cybersecurity-threatscape-2022-q3/)  
+   Accessed on: 15th September 2023
+
+9. **PwC (2022)**  
+   [_PwC’s Global Economic Crime and Fraud Survey 2020_](https://www.pwc.com/gx/en/services/forensics/economic-crime-survey.html)
+
+10. **Richter, F.-J. & Sinha, G. (2020)**  
+    [_Why Do Your Employees Resist New Tech?_](https://hbr.org/2020/08/why-do-your-employees-resist-new-tech) on Harvard Business Review
+
+11. **Deloitte (n.d.)**  
+    [_Save-to-transform as a catalyst for embracing digital disruption: Deloitte’s second biennial global cost survey_](https://www2.deloitte.com/content/dam/Deloitte/us/Documents/process-and-operations/us-global-cost-survey-2019.pdf)
+
+12. **Spiceworks (n.d.)**  
+    [_Tech Issues Cost Organizations $4,072 per Annum per Person_](https://www.spiceworks.com/hr/hr-strategy/articles/tech-issues-cost-organizations-an-average-4072-per-annum-per-person/)  
+    Accessed on: 15th September 2023
+
+13. **Verizon (2023)**  
+    [_2023 Data Breach Investigations Report: frequency and cost of social engineering attacks skyrocket_](https://www.verizon.com/about/news/2023-data-breach-investigations-report)

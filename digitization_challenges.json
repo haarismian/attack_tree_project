@@ -8,7 +8,7 @@
             "id": "TechnicalChallenges",
             "label": "Technical Challenges",
             "value": 35000,
-            "source": "TechRepublic, 2021",
+            "source": "SpiceWorks, 2023",
             "children": [
                 {
                     "id": "Infrastructure",
