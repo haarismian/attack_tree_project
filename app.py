@@ -155,10 +155,9 @@ def draw_graph(graph, pos, labels):
     # Draw new graph with updated information using the plt draw function
     # Graph nodes are drawn  followed by labels
     nx.draw(graph, pos,
-            node_size=1000, node_color='skyblue')
-    nx.draw_networkx_labels(graph, pos, labels=labels)
-    for i, (node, (x, y)) in enumerate(pos.items()):
-        plt.scatter(x, y, s=1000, c='skyblue', picker=True)
+            node_size=500, node_color='skyblue')
+    nx.draw_networkx_labels(graph, pos, labels=labels, font_size=12)
+
 
 # Function to sum individual paths recursively to show user in the following format:
 # Leaf Node: Blackmail, Path: Data Breach -> Insider Threat -> Bribery -> Blackmail, Sum: 1305000
@@ -200,8 +199,8 @@ def sum_routes(json_graph):
 if __name__ == "__main__":
     # Specify the JSON file path
     # filename = "./digitization_challenges.json"
-    # filename = "./local_supplier_issues.json"
-    filename = "./data_breach.json"
+    filename = "./local_supplier_issues.json"
+    # filename = "./data_breach.json"
 
     # Execute both sum_routes and visualize_attack_tree functions
 
