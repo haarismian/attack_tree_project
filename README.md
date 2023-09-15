@@ -8,9 +8,18 @@ This application is an attack tree visualizer, which allows users to visualize a
 Dear Cathy,
 
 As requested, a python application was created that can accept an attack tree specification in the industry standard format known as JSON (Tentilucci et al. 2015). The attack trees were created with research potential attack vectors from a variety of sources, please see the individual example JSON files provided for detailed sources of potential vectors as well as their respective estimated costs. Three potential scenarios cases were considered based on the risk identification report (Mian, 2023): 
-1. Local supplier issues
-2. Challenges in the digitization process
-3. A potential data breach after the digitization process is complete
+
+##Local supplier issues
+![image](https://github.com/haarismian/attack_tree_project/assets/13083798/503b5d9e-52d2-4e5c-a406-9e6d49f7aa25)
+
+##Challenges in the digitization process
+![image](https://github.com/haarismian/attack_tree_project/assets/13083798/c96f3733-c512-46d2-8b6e-9349c3401cd1)
+
+##A potential data breach after the digitization process is complete
+![image](https://github.com/haarismian/attack_tree_project/assets/13083798/893608af-5b81-4741-8000-fdf5a6a1e9dc)
+
+
+
 
 # Code functionalities
 
