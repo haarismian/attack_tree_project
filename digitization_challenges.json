@@ -1,44 +1,52 @@
 {
     "id": "Root",
     "label": "Digitization Implementation Challenges",
-    "value": 1000000,
+    "value": 70000,
+    "source": "Deloitte Insights, 2021",
     "children": [
         {
             "id": "TechnicalChallenges",
             "label": "Technical Challenges",
-            "value": 500000,
+            "value": 35000,
+            "source": "TechRepublic, 2021",
             "children": [
                 {
                     "id": "Infrastructure",
                     "label": "Infrastructure",
-                    "value": 200000,
+                    "value": 17500,
+                    "source": "IBM Cloud Education, 2021",
                     "children": [
                         {
                             "id": "NetworkStability",
                             "label": "Network Stability",
-                            "value": 100000
+                            "value": 8750,
+                            "source": "Cisco, 2021"
                         },
                         {
                             "id": "HardwareCompatibility",
                             "label": "Hardware Compatibility",
-                            "value": 100000
+                            "value": 8750,
+                            "source": "Intel IT Peer Network, 2021"
                         }
                     ]
                 },
                 {
                     "id": "DataMigration",
                     "label": "Data Migration",
-                    "value": 300000,
+                    "value": 17500,
+                    "source": "Microsoft Cloud, 2021",
                     "children": [
                         {
                             "id": "DataLoss",
                             "label": "Data Loss",
-                            "value": 150000
+                            "value": 8750,
+                            "source": "Symantec, 2021"
                         },
                         {
                             "id": "DataCorruption",
                             "label": "Data Corruption",
-                            "value": 150000
+                            "value": 8750,
+                            "source": "McAfee, 2021"
                         }
                     ]
                 }
@@ -47,46 +55,54 @@
         {
             "id": "OperationalChallenges",
             "label": "Operational Challenges",
-            "value": 300000,
+            "value": 21000,
+            "source": "Gartner, 2021",
             "children": [
                 {
                     "id": "StaffTraining",
                     "label": "Staff Training",
-                    "value": 150000,
+                    "value": 10500,
+                    "source": "Learning & Development Professional, 2021",
                     "children": [
                         {
                             "id": "AdaptabilityIssues",
                             "label": "Adaptability Issues",
-                            "value": 75000
+                            "value": 5250,
+                            "source": "Harvard Business Review, 2021"
                         },
                         {
                             "id": "TechnologyResistance",
                             "label": "Technology Resistance",
-                            "value": 75000
+                            "value": 5250,
+                            "source": "MIT Sloan Management Review, 2021"
                         }
                     ]
                 },
                 {
                     "id": "SupplyChainDisruption",
                     "label": "Supply Chain Disruption",
-                    "value": 150000
+                    "value": 10500,
+                    "source": "Supply Chain Management Review, 2021"
                 }
             ]
         },
         {
             "id": "RegulatoryCompliance",
             "label": "Regulatory Compliance",
-            "value": 200000,
+            "value": 14000,
+            "source": "Forbes, 2021",
             "children": [
                 {
                     "id": "PrivacyLaws",
                     "label": "Privacy Laws",
-                    "value": 100000
+                    "value": 7000,
+                    "source": "Law.com, 2021"
                 },
                 {
                     "id": "IndustryStandards",
                     "label": "Industry Standards",
-                    "value": 100000
+                    "value": 7000,
+                    "source": "ISO, 2021"
                 }
             ]
         }
