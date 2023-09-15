@@ -32,6 +32,7 @@ As requested, a python application was created that can accept an attack tree sp
 - **networkx**: To create, manipulate, and study the complex networks of nodes and edges in the hierarchical tree structure.
 - **graphviz_layout**: Facilitates better layout and visualization of the graph using Graphviz.
 - **Linting** is done using pylint per the PEP8 style guide.
+- **Comments** The code comes complete with docstrings for all methods as well as comments explaining in detail all the coding decisions made
 
 ## Recursive Functionality
 
@@ -67,9 +68,10 @@ As requested, a python application was created that can accept an attack tree sp
 # Installation
 1. Ensure you have the `Python` programming language installed - if you have python 3 installed you will be using the `python3` command, if you do not, then you will use the `python` command
 2. Ensure you have the `pip` package manager installed by following the instructions on this page `https://pip.pypa.io/en/stable/installation/`
-3. Using the terminal navigate to the folder of the code submission with the file `requirements.txt`. This will be in the root directory
-4. Use the command `pip install -r requirements` to install all project dependencies. These dependencies are necessary for the project to run and include things like matplotlib or networkx. Please see the requirements.txt file for the full details.
-5. Once all dependencies are installed, use the command `python app.py` or `python3 app.py` to run the application.
+3. It is recommended to create a virtual environment using the instructions listed here `https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/`
+4. Using the terminal navigate to the folder of the code submission with the file `requirements.txt`. This will be in the root directory
+5. Use the command `pip install -r requirements` to install all project dependencies. These dependencies are necessary for the project to run and include things like matplotlib or networkx. Please see the requirements.txt file for the full details.
+6. Once all dependencies are installed, use the command `python app.py` or `python3 app.py` to run the application.
 
 # Test cases:
 
