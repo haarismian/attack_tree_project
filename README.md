@@ -23,10 +23,6 @@ As requested, a python application was created that can accept an attack tree sp
 ![image](https://github.com/haarismian/attack_tree_project/assets/13083798/893608af-5b81-4741-8000-fdf5a6a1e9dc)
 ![image](https://github.com/haarismian/attack_tree_project/assets/13083798/cc939c86-042c-4821-8698-c9642d585955)
 
-
-
-
-
 # Code functionalities
 
 ## Import and utility setup
@@ -35,6 +31,7 @@ As requested, a python application was created that can accept an attack tree sp
 - **matplotlib.pyplot**: Utilized for data visualization using various plot types.
 - **networkx**: To create, manipulate, and study the complex networks of nodes and edges in the hierarchical tree structure.
 - **graphviz_layout**: Facilitates better layout and visualization of the graph using Graphviz.
+- **Linting** is done using pylint per the PEP8 style guide.
 
 ## Recursive Functionality
 
