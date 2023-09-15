@@ -11,12 +11,18 @@ As requested, a python application was created that can accept an attack tree sp
 
 ## Local supplier issues
 ![image](https://github.com/haarismian/attack_tree_project/assets/13083798/503b5d9e-52d2-4e5c-a406-9e6d49f7aa25)
+![image](https://github.com/haarismian/attack_tree_project/assets/13083798/afd5e19d-98be-4482-9c7b-bde51f4b7ba5)
+
 
 ## Challenges in the digitization process
 ![image](https://github.com/haarismian/attack_tree_project/assets/13083798/c96f3733-c512-46d2-8b6e-9349c3401cd1)
+![image](https://github.com/haarismian/attack_tree_project/assets/13083798/d5bd6340-9751-4d11-b8b7-95d04da92947)
+
 
 ## A potential data breach after the digitization process is complete
 ![image](https://github.com/haarismian/attack_tree_project/assets/13083798/893608af-5b81-4741-8000-fdf5a6a1e9dc)
+![image](https://github.com/haarismian/attack_tree_project/assets/13083798/cc939c86-042c-4821-8698-c9642d585955)
+
 
 
 
