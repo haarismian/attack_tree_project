@@ -1,30 +1,44 @@
 import matplotlib.pyplot as plt
 import networkx as nx
-from netgraph import EditableGraph
+from networkx.drawing.nx_agraph import graphviz_layout
+from matplotlib.collections import PatchCollection
 
-g = nx.house_x_graph()
+def on_pick(event):
+#     graph = event.artist.graph
+#     eventnode = event.nodes
+    eventartist = event.artist
+    print(eventartist)
+    print(eventartist.get_url())
+    print(event.artist.id)
+    for i in event.ind:
+            # color = event.artist.get_facecolor()[i]
+            print(i)
 
-edge_color = dict()
-for ii, (source, target) in enumerate(g.edges):
-    edge_color[(source, target)] = 'tab:gray' if ii % 2 else 'tab:orange'
 
-node_color = dict()
-for node in g.nodes:
-    node_color[node] = 'tab:red' if node % 2 else 'tab:blue'
+if __name__ == "__main__":
+    # Specify the JSON file path
+    # filename = "./digitization_challenges.json"
+    # filename = "./local_supplier_issues.json"
+    filename = "./data_breach.json"
 
-annotations = {
-    4: 'This is the representation of a node.',
-    (0, 1): dict(s='This is not a node.', color='red')
-}
+    # # Execute both sum_routes and visualize_attack_tree functions
+    # json_graph = load_json_graph(filename)
+    # visualize_attack_tree(json_graph)
 
-fig, ax = plt.subplots(figsize=(10, 10))
+    graph = nx.DiGraph()  # Create a directed graph
+    graph.add_node(1)
+    graph.add_node(8, time="5pm")
+    graph.add_edge(1,2)
+    graph.add_edge(2,3)
+    graph.add_edge(1,4)
+    graph.add_node(3)  # Add node 1
+    fig = plt.figure()
+    fig.canvas.mpl_connect('pick_event', on_pick)
 
-plot_instance = EditableGraph(
-    g, node_color=node_color, node_size=5,
-    node_labels=True, node_label_offset=0.1, node_label_fontdict=dict(size=20),
-    edge_color=edge_color, edge_width=2,
-    annotations=annotations, annotation_fontdict=dict(
-        color='blue', fontsize=15),
-    arrows=True, ax=ax)
-
-plt.show()
+    pos = graphviz_layout(graph, prog="dot")
+    nx.draw(graph, pos, with_labels=False,
+            node_size=1000, node_color='skyblue')
+    nx.draw_networkx_labels(graph, pos)
+    for i, (node, (x, y)) in enumerate(pos.items()):
+        plt.scatter(x, y, s=1000, c='skyblue', picker=True)
+    plt.show()

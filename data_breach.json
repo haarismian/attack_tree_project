@@ -1,0 +1,118 @@
+{
+    "id": "Root",
+    "label": "Data Breach",
+    "value": 1000000,
+    "children": [
+        {
+            "id": "SocialEngineering",
+            "label": "Social Engineering",
+            "value": 400000,
+            "children": [
+                {
+                    "id": "Phishing",
+                    "label": "Phishing",
+                    "value": 150000,
+                    "children": [
+                        {
+                            "id": "Email",
+                            "label": "Email",
+                            "value": 80000
+                        },
+                        {
+                            "id": "PhoneCall",
+                            "label": "Phone Call",
+                            "value": 70000
+                        }
+                    ]
+                },
+                {
+                    "id": "Pretexting",
+                    "label": "Pretexting",
+                    "value": 250000
+                }
+            ]
+        },
+        {
+            "id": "NetworkInvasion",
+            "label": "Network Invasion",
+            "value": 400000,
+            "children": [
+                {
+                    "id": "ExploitVulnerability",
+                    "label": "Exploit Vulnerability",
+                    "value": 200000,
+                    "children": [
+                        {
+                            "id": "ZeroDay",
+                            "label": "Zero-Day",
+                            "value": 120000
+                        },
+                        {
+                            "id": "KnownVulnerability",
+                            "label": "Known Vulnerability",
+                            "value": 80000
+                        }
+                    ]
+                },
+                {
+                    "id": "ManInTheMiddle",
+                    "label": "Man-in-the-middle",
+                    "value": 150000,
+                    "children": [
+                        {
+                            "id": "PacketSniffing",
+                            "label": "Packet Sniffing",
+                            "value": 70000
+                        },
+                        {
+                            "id": "SessionHijacking",
+                            "label": "Session Hijacking",
+                            "value": 80000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "InsiderThreat",
+            "label": "Insider Threat",
+            "value": 200000,
+            "children": [
+                {
+                    "id": "DisgruntledEmployee",
+                    "label": "Disgruntled Employee",
+                    "value": 50000,
+                    "children": [
+                        {
+                            "id": "DataTheft",
+                            "label": "Data Theft",
+                            "value": 25000
+                        },
+                        {
+                            "id": "DataLeakage",
+                            "label": "Data Leakage",
+                            "value": 25000
+                        }
+                    ]
+                },
+                {
+                    "id": "Bribery",
+                    "label": "Bribery",
+                    "value": 70000,
+                    "children": [
+                        {
+                            "id": "FinancialIncentives",
+                            "label": "Financial Incentives",
+                            "value": 35000
+                        },
+                        {
+                            "id": "Blackmail",
+                            "label": "Blackmail",
+                            "value": 35000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

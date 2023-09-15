@@ -1,0 +1,94 @@
+{
+    "id": "Root",
+    "label": "Digitization Implementation Challenges",
+    "value": 1000000,
+    "children": [
+        {
+            "id": "TechnicalChallenges",
+            "label": "Technical Challenges",
+            "value": 500000,
+            "children": [
+                {
+                    "id": "Infrastructure",
+                    "label": "Infrastructure",
+                    "value": 200000,
+                    "children": [
+                        {
+                            "id": "NetworkStability",
+                            "label": "Network Stability",
+                            "value": 100000
+                        },
+                        {
+                            "id": "HardwareCompatibility",
+                            "label": "Hardware Compatibility",
+                            "value": 100000
+                        }
+                    ]
+                },
+                {
+                    "id": "DataMigration",
+                    "label": "Data Migration",
+                    "value": 300000,
+                    "children": [
+                        {
+                            "id": "DataLoss",
+                            "label": "Data Loss",
+                            "value": 150000
+                        },
+                        {
+                            "id": "DataCorruption",
+                            "label": "Data Corruption",
+                            "value": 150000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "OperationalChallenges",
+            "label": "Operational Challenges",
+            "value": 300000,
+            "children": [
+                {
+                    "id": "StaffTraining",
+                    "label": "Staff Training",
+                    "value": 150000,
+                    "children": [
+                        {
+                            "id": "AdaptabilityIssues",
+                            "label": "Adaptability Issues",
+                            "value": 75000
+                        },
+                        {
+                            "id": "TechnologyResistance",
+                            "label": "Technology Resistance",
+                            "value": 75000
+                        }
+                    ]
+                },
+                {
+                    "id": "SupplyChainDisruption",
+                    "label": "Supply Chain Disruption",
+                    "value": 150000
+                }
+            ]
+        },
+        {
+            "id": "RegulatoryCompliance",
+            "label": "Regulatory Compliance",
+            "value": 200000,
+            "children": [
+                {
+                    "id": "PrivacyLaws",
+                    "label": "Privacy Laws",
+                    "value": 100000
+                },
+                {
+                    "id": "IndustryStandards",
+                    "label": "Industry Standards",
+                    "value": 100000
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "id": "Root",
+    "label": "Over-Reliance on Local Suppliers",
+    "value": 1000000,
+    "children": [
+        {
+            "id": "SupplyShortages",
+            "label": "Supply Shortages",
+            "value": 400000,
+            "children": [
+                {
+                    "id": "LocalSupplierBankruptcy",
+                    "label": "Local Supplier Bankruptcy",
+                    "value": 150000
+                },
+                {
+                    "id": "ProductionDelays",
+                    "label": "Production Delays",
+                    "value": 100000,
+                    "children": [
+                        {
+                            "id": "MaterialShortage",
+                            "label": "Material Shortage",
+                            "value": 50000
+                        },
+                        {
+                            "id": "LabourShortages",
+                            "label": "Labour Shortages",
+                            "value": 50000
+                        }
+                    ]
+                },
+                {
+                    "id": "TransportationDelays",
+                    "label": "Transportation Delays",
+                    "value": 150000
+                }
+            ]
+        },
+        {
+            "id": "QualityIssues",
+            "label": "Quality Issues",
+            "value": 300000,
+            "children": [
+                {
+                    "id": "InconsistentQuality",
+                    "label": "Inconsistent Quality",
+                    "value": 150000
+                },
+                {
+                    "id": "DefectiveProducts",
+                    "label": "Defective Products",
+                    "value": 150000
+                }
+            ]
+        },
+        {
+            "id": "PriceFluctuations",
+            "label": "Price Fluctuations",
+            "value": 200000,
+            "children": [
+                {
+                    "id": "MaterialCostIncrease",
+                    "label": "Material Cost Increase",
+                    "value": 100000
+                },
+                {
+                    "id": "TransportationCostIncrease",
+                    "label": "Transportation Cost Increase",
+                    "value": 100000
+                }
+            ]
+        },
+        {
+            "id": "ReputationalRisks",
+            "label": "Reputational Risks",
+            "value": 100000,
+            "children": [
+                {
+                    "id": "CustomerDissatisfaction",
+                    "label": "Customer Dissatisfaction",
+                    "value": 50000
+                },
+                {
+                    "id": "NegativeMediaCoverage",
+                    "label": "Negative Media Coverage",
+                    "value": 50000
+                }
+            ]
+        }
+    ]
+}
